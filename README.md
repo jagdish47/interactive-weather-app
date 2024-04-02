@@ -15,7 +15,7 @@ This is an interactive weather application that adheres to best practices and ma
    - Open your terminal.
 
    ```bash
-   git clone https://github.com/your_username/your_repository.git
+   git clone https://github.com/jagdish47/interactive-weather-app.git
    ```
 
 ## Project Setup Instructions
@@ -53,3 +53,7 @@ This is an interactive weather application that adheres to best practices and ma
      ```
 
      This command will start the project in development mode.
+
+## Deployed Link
+
+- [Interactive-Weather-Application](https://interactive-weather-app.vercel.app/).

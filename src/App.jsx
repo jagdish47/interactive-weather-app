@@ -7,11 +7,6 @@ function App() {
   const [location, setLocation] = useState("");
   const { weatherData, loading, error } = useWeatherData(location);
 
-  console.log(weatherData);
-  console.log(loading);
-  console.log(error);
-  console.log(location);
-
   const searchLocation = (event) => {
     setLocation(event.target.value);
   };

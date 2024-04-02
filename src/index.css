@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("./assets/weather-wallpaper.jpg") no-repeat center center/cover;
+}
+
+.input {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input::placeholder {
+  color: #d3d3d3;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.top {
+  background-color: rgba(165, 165, 165, 0.329);
+  border-radius: 10px;
+}
